@@ -1,0 +1,19 @@
+{
+  "name": "ai-os-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing Felix's AI OS (synced in Notion) as tools for any MCP-compatible AI client.",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@notionhq/client": "^2.2.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0"
+  }
+}

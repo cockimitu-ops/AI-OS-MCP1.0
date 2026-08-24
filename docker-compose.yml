@@ -1,0 +1,7 @@
+services:
+  ai-os-mcp:
+    build: .
+    environment:
+      - NOTION_API_KEY=${NOTION_API_KEY}
+    stdin_open: true
+    tty: true
